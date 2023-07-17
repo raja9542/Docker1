@@ -2,4 +2,4 @@ FROM almalinux:8
 LABEL course="Docker-K8s" \
       Duration="1month" \
       Trainer="siva"
-      authors="raja@gmail.com"
+      AUTHOR = "raja@gmail.com"
