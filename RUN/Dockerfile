@@ -1,2 +1,3 @@
-FROM centos:8
-RUN yum install nginx -yum
+FROM centos:latest
+RUN yum update -y 
+RUN yum install nginx -y
